@@ -1,0 +1,60 @@
+[
+    {
+      "precio": 25000,
+      "id": 1,
+      "title": "Proteina grande",
+      "thumbnailUrl": "https://tremus.cl/wp-content/uploads/2020/11/FRENTE-20102102.png"
+    },
+    {
+      "precio": 19000,
+      "id": 2,
+      "title": "Proteina mediana",
+      "thumbnailUrl": "https://www.paris.cl/on/demandware.static/-/Sites-paris-marketplace/default/dw2b5c124a/images/imagenes-productos/800/MKLT/MKLTBN2FD1-9997-001.jpg"
+    },
+    {
+      "precio": 14000,
+      "id": 3,
+      "title": "Creatina grande",
+      "thumbnailUrl": "https://fitmarketchile.cl/wp-content/uploads/2022/08/creatina-400-gr.jpg"
+    },
+    {
+      "precio": 10000,
+      "id": 4,
+      "title": "Creatina pequeña",
+      "thumbnailUrl": "https://tematchadetox.cl/178-large_default/creatina-100-pure-monohydrated.jpg"
+    },
+    {
+      "precio": 7000,
+      "id": 5,
+      "title": "Barritas proteina",
+      "thumbnailUrl": "https://hausnusse.cl/cdn/shop/products/16_2c17a605-9c31-4d2c-bb69-9b225c94d671.png?v=1671123410"
+    },
+    {
+      "precio": 6500,
+      "id": 6,
+      "title": "Barritas proteina coco",
+      "thumbnailUrl": "https://cdn2.lomi.cl/cdn-cgi/image/width=475,height=475,quality=75,f=auto,fit=pad/alxdi8ehi07s3rj8h5qa2egfi4nv.jpeg"
+    },
+    {
+      "precio": 8500,
+      "id": 7,
+      "title": "Snacks Mantequilla de Maní",
+      "thumbnailUrl": "https://www.astanutrition.cl/cdn/shop/products/FOTO-COOKIES-1_800x_3c46bcd1-b057-4e5a-b27b-8db2c8666db3_1024x1024.webp?v=1655310723"
+    },
+    {
+      "precio": 7500,
+      "id": 8,
+      "title": "Snacks Mantequilla de Maní sabor chocolate",
+      "thumbnailUrl": "https://www.astanutrition.cl/cdn/shop/products/FOTO-CREAMY-1_800x_dac1be93-e029-4427-bcd6-8c2f9bee2b91_1024x1024.webp?v=1655311113"
+    },
+    {
+      "precio": 9500,
+      "id": 9,
+      "title": "Galletas de proteina",
+      "thumbnailUrl": "https://7moons.cl/cdn/shop/files/Proteinbiteweb.png?v=1685987758"
+    }
+  ]
+
+
+
+  

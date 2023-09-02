@@ -1,0 +1,58 @@
+.d-flex, .empezar, .hero-produ-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hero-produ {
+  background-color: #000000;
+  width: 100%;
+  padding: 20px;
+  border: 0px;
+  margin: 0px;
+}
+.hero-produ-content {
+  justify-content: center;
+  padding: 40px;
+  justify-items: center;
+  overflow: hidden;
+}
+.hero-produ-content p {
+  font-size: 60px;
+  color: #ffffff;
+  justify-content: center;
+  font-family: "bruno";
+  font-weight: bolder;
+}
+
+.empezar {
+  justify-content: center;
+  padding: 40px;
+  justify-items: center;
+  overflow: hidden;
+}
+.empezar button {
+  border: 0;
+  background-image: linear-gradient(150deg, rgb(141, 45, 150), rgb(182, 87, 172), rgb(207, 102, 202));
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.empezar button span {
+  background-color: rgb(16, 15, 15);
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.empezar button:hover span {
+  background: none;
+}
+.empezar button:active {
+  transform: scale(1.5);
+}
+
+/*# sourceMappingURL=style.css.map */
