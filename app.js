@@ -104,7 +104,6 @@ const pintarFooter = () => {
         <th scope="row" colspan="5">Carrito vacío</th>
         `
         return
-
     }
 
     const template = document.querySelector('#template-footer').content
@@ -128,7 +127,6 @@ const pintarFooter = () => {
         carrito = {}
         pintarCarrito()
     })
-
 }
 
 const accionBotones = () => {
@@ -152,22 +150,20 @@ const accionBotones = () => {
             producto.cantidad--
             if (producto.cantidad === 0) {
                 delete carrito[btn.dataset.id]
-                pintarCarrito() 
-                
+                pintarCarrito()
+
             } else {
                 carrito[btn.dataset.id] = { ...producto }
                 pintarCarrito()
-
             }
         })
     })
-
 }
 
 /*Use SweetAlert para personalizar un modal donde el usuario pueda indica su nivel de fitness para ofrecerle o no, asesorias*/
 
 let boton = document.getElementById("boton-especial");
-boton.addEventListener("click", () => { 
+boton.addEventListener("click", () => {
 
     const saludoPersonalizado = async () => {
         const inputOptions = new Promise((resolve) => {
@@ -194,9 +190,6 @@ boton.addEventListener("click", () => {
         if (color) {
             Swal.fire({ html: `${color}` })
         }
-
     }
-
     saludoPersonalizado()
-
 })
