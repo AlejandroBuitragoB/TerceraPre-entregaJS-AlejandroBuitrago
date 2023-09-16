@@ -53,6 +53,7 @@
         </div>
         <div class="row" id="contenedor-productos"></div>
     </div>
+
     <template id="template-footer">
         <th scope="row" colspan="2">Total productos</th>
         <td>10</td>
@@ -62,6 +63,21 @@
             </button>
         </td>
         <td class="font-weight-bold">$ <span>5000</span></td>
+        <td>
+            <button class="btn btn-finCompra btn-sm" id="finalizar-compra">
+                <span>finalizar Compra</span>
+            </button>
+        </td>
+    </template>
+
+    <template id="template-finCompra">
+        <th scope="row" colspan="2">Finalizar su compra</th>
+        <td>10</td>
+        <td>
+            <button class="btn btn-finCompra btn-sm" id="finalizar-compra">
+                finalizar Compra
+            </button>
+        </td>
     </template>
 
     <template id="template-carrito">
@@ -70,11 +86,11 @@
             <td>Proteina</td>
             <td>1</td>
             <td>
-                <button class="btn btn-info btn-sm">
-                    +
-                </button>
                 <button class="btn btn-danger btn-sm">
                     -
+                </button>
+                <button class="btn btn-info btn-sm">
+                    +
                 </button>
             </td>
             <td>$ <span>25000</span></td>
